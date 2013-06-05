@@ -1,0 +1,44 @@
+@import "bourbon";
+
+//accordion with arrow on the left
+.accordion {
+  dt{
+    background:#f5f5f5; padding: 10px;
+    border:1px solid #ccc;
+    margin: 0 0 3px 0;
+    position: relative;
+      span{
+          width: 0; 
+          height: 0; 
+          border-top: 7px solid transparent;
+          border-bottom: 7px solid transparent;
+          border-left: 7px solid #666;
+          left:10px;
+          top:9px;
+          position: absolute;
+      }
+      a{
+        display: block;
+        color: #000;
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 30px;
+        }
+  }
+  dd{
+    background: #f9f9f9;
+    margin: 0 0 3px 0;
+    padding: 20px;
+    border:1px solid #ccc;
+  }
+  dt.expanded{
+   margin: 0;
+   border-bottom:none;
+   span{
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-top: 7px solid #666;
+      top:15px;
+    }
+  }
+}

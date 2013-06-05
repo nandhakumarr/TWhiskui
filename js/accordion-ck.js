@@ -1,0 +1,1 @@
+(function(e){var t=e(".accordion > .accordion-body").hide(),n=e(".accordion > .accordion-head");e(".accordion > .accordion-head > a").click(function(){t.slideUp("fast").removeClass("expanded");n.removeClass("expanded");e(this).parent().addClass("expanded");e(this).parent().next().slideDown("fast").addClass("expanded");return!1})})(jQuery);
