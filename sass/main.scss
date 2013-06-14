@@ -1,10 +1,11 @@
 //variables
-
+$grayLighter:           #eee !default;
+$white:                 #fff !default;
 $blue:#2b9ea6;
 $headingfont:'Merriweather', sans-serif;
 
 body{
 	padding:50px;
 }
-h1{color:$blue;font-family: $headingfont; border-bottom:1px dotted #ccc;}
+h1{color:$blue;font-family: $headingfont; border-bottom:1px dotted $grayLighter;}
 ul{list-style-type: none;}

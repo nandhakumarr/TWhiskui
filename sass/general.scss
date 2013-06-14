@@ -1,0 +1,18 @@
+// margins 
+// .mt5{ margin-top: 5px;}
+// .mr5{ margin-right: 5px;}
+// .mb5{ margin-bottom: 5px;}
+// .ml5{ margin-left: 5px;}
+
+// .mt5{ margin-top: 5px;}
+// .mr5{ margin-right: 5px;}
+// .mb5{ margin-bottom: 5px;}
+// .ml5{ margin-left: 5px;}
+
+@mixin margin($margin) {
+	margin-top: $margin;
+	margin-right: $margin;
+	margin-bottom: $margin;
+	margin-left: $margin;
+}
+

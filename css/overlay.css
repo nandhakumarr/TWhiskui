@@ -1,0 +1,52 @@
+/* line 6, ../sass/overlay.scss */
+.overlay {
+  background: white;
+  position: fixed;
+  top: -10%;
+  padding: 20px;
+  z-index: 10000;
+  display: none; }
+  /* line 14, ../sass/overlay.scss */
+  .overlay header {
+    position: relative;
+    border-bottom: 1px solid #eeeeee; }
+    /* line 17, ../sass/overlay.scss */
+    .overlay header .overlay-head {
+      font-size: 18px;
+      margin: 0 0 10px 0; }
+    /* line 21, ../sass/overlay.scss */
+    .overlay header .overlay-close {
+      position: absolute;
+      top: -20px;
+      right: -20px;
+      height: 20px;
+      border: 0;
+      font-family: arial, helvetica;
+      background: #EEE;
+      color: #555;
+      font-size: 11px;
+      width: 20px;
+      line-height: 18px;
+      text-align: center; }
+      /* line 34, ../sass/overlay.scss */
+      .overlay header .overlay-close:hover {
+        background: #999;
+        color: #eee; }
+
+/* line 43, ../sass/overlay.scss */
+.dummyclass {
+  width: 500px; }
+
+/* line 47, ../sass/overlay.scss */
+.overlay-bg {
+  background: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7; }

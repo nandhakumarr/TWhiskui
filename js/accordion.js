@@ -8,10 +8,10 @@
   //   return false;
   // });
 
-var allPanels = $('.accordion > .accordion-body').hide();
-var allPanelheads = $('.accordion > .accordion-head');
+var allPanels = $('.accordion > .body').hide();
+var allPanelheads = $('.accordion > .head');
     
-  $('.accordion > .accordion-head > a').click(function() {
+  $('.accordion > .head > a').click(function() {
     allPanels.slideUp('fast').removeClass('expanded');
  allPanelheads.removeClass('expanded');
 

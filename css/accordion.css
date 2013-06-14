@@ -1,39 +1,39 @@
-/* line 5, ../sass/accordion.scss */
-.accordion dt {
+/* line 6, ../sass/accordion.scss */
+.accordion .head {
   background: #f5f5f5;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #eeeeee;
   margin: 0 0 3px 0;
   position: relative; }
-  /* line 10, ../sass/accordion.scss */
-  .accordion dt span {
+  /* line 11, ../sass/accordion.scss */
+  .accordion .head span {
     width: 0;
     height: 0;
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
     border-left: 7px solid #666;
     left: 10px;
-    top: 9px;
+    top: 15px;
     position: absolute; }
-  /* line 20, ../sass/accordion.scss */
-  .accordion dt a {
+  /* line 21, ../sass/accordion.scss */
+  .accordion .head a {
     display: block;
     color: #000;
     font-weight: bold;
     text-decoration: none;
     margin-left: 30px; }
-/* line 28, ../sass/accordion.scss */
-.accordion dd {
+/* line 29, ../sass/accordion.scss */
+.accordion .body {
   background: #f9f9f9;
   margin: 0 0 3px 0;
   padding: 20px;
-  border: 1px solid #ccc; }
-/* line 34, ../sass/accordion.scss */
-.accordion dt.expanded {
+  border: 1px solid #eeeeee; }
+/* line 35, ../sass/accordion.scss */
+.accordion head.expanded {
   margin: 0;
   border-bottom: none; }
-  /* line 37, ../sass/accordion.scss */
-  .accordion dt.expanded span {
+  /* line 38, ../sass/accordion.scss */
+  .accordion head.expanded span {
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-top: 7px solid #666;
